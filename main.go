@@ -18,6 +18,8 @@ func main() {
 	switch day {
 	case "01":
 		fmt.Println(day01.Part1())
+		fmt.Println(day01.Part2())
+
 	default:
 		fmt.Println("No Args passed.")
 	}
